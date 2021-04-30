@@ -1,0 +1,42 @@
+.addBtn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #19D476;
+    border-radius: 22px;
+}
+
+
+.adderBtn {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #19D476;
+    border-radius: 22px;
+    padding: 12px 30px;
+    margin-left: 20px;
+    border: none;
+    position: relative;
+}
+
+.img-wrapper {
+     background: #11B463;
+     border-radius: 22px;
+     width: 44px;
+     height: 44px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    position: absolute;
+    right: 320px;
+    z-index: 1;
+}
+
+.addImg {
+    
+   
+    padding: 6px 13px;
+}

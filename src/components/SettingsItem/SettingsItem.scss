@@ -1,0 +1,120 @@
+.SettingLabel {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+
+}
+
+
+.SettingInputT {
+    
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #979797;
+    padding-bottom: 7px;
+}
+
+.SettingSelect {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #979797;
+    padding-bottom: 7px;
+}
+
+.SettingLabel2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+
+}
+
+.SettingLabel2--bigger {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+
+}
+
+.SettingSpan {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.55;
+}
+
+.SettingGreenBtn {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+    background: #19D476;
+    border-radius: 13px;
+    padding: 20px 45px;
+}
+
+.SettingBlueBtn {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #4E72CA;
+
+}
+
+
+.SettingsItem-sections{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    hr {
+        border: 1px solid #979797;
+    }
+}
+
+.SettingsItem-sections--notFlexly {
+    display: block;
+}
+
+.SInputsWrap {
+    display: flex;
+    align-items: center;
+}
+
+.sections-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

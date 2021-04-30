@@ -1,0 +1,41 @@
+.NHT-links {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-right: 30px;
+}
+
+.NHT-links:last-child {
+  
+    margin-right: 0px;
+}
+
+.NHT-right {
+    display: flex;
+    align-items: center;
+  
+}
+
+.NHT-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    margin-bottom: 16px;
+}
+
+.NHT-centre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NHT2-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 17px;
+}

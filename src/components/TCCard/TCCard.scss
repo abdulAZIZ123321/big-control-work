@@ -1,0 +1,48 @@
+.TCCard-wrapper {
+    min-width: 75px;
+    min-height: 75px;
+    margin-right: 39px;
+}
+
+.carusel-img {
+    padding: 12px 10px;
+    background: #B6CAFB;
+    border-radius: 20px;
+
+    &.AirPlane {
+        background: #B6CAFB;
+    }
+
+    &.Gifts {
+        background: #F6DAC2;
+    }
+
+    &.Man {
+        background: #FF9E83;
+    }
+
+    &.mark {
+        background: #B6CAFB;
+    }
+
+    &.market {
+        background: #B4E2E1;
+        
+    }
+
+    &.bag {
+        background: #F7E233;
+    }
+
+    &.computer {
+        background: #FF9E83;
+    }
+
+    &.mountain {
+        background: #B4E2E1;
+    }
+
+    &.Gaming {
+        background: #F6DAC2;
+    }
+}

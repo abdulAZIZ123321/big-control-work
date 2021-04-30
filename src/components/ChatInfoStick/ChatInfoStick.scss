@@ -1,0 +1,60 @@
+.Chat-text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    color: #25252B;
+    margin-bottom: 5px;
+
+}
+
+.Chat-text--colorly {
+    color: #686871;
+}
+
+.Chat-text--big {
+    font-size: 15px;
+}
+
+.ChatImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.ChatIcon {
+    width: 8px;
+    height: 12px;
+}
+
+.ChatInfoStick {
+    display: flex;
+    align-items: center;
+  
+   
+
+    background: rgba(182, 202, 251, 0.125113);
+}
+
+.ChatInfoStick:hover {
+        background: #fff;
+}
+
+.ChatInfoStick-left {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.ChatInfoStick-texts {
+    margin-left: 16px;
+    margin-right: 19px;
+}
+
+.ChatInfoStick-inner {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}

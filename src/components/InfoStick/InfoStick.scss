@@ -1,0 +1,179 @@
+.InfoStick-btn--green {
+     background: #FFFFFF;
+    border: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding: 10px 20px;
+}
+
+.InfoStick-btn--blue {
+    background: #FFFFFF;
+    border: none;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 20px;
+    color: #000000;
+
+}
+
+.InfoStick-links {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #414D6A;
+    margin-right: 15px;
+}
+
+.InfoStick-links:last-child {
+    
+    margin-right: 0;
+}
+
+.InfoStick-text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    width: 144px;
+
+    color: #414D6A;
+
+}
+
+.InfoArrowGreen {
+    border-radius: 50%;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #41D481;
+    
+}
+
+.InfoArrowBlue {
+    border-radius: 50%;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #304FFF;
+}
+
+.InfoStick-links:hover {
+    color: #304FFF;
+}
+
+.InfoStick-wrapper {
+    background-color: #fff;
+
+    margin-bottom: 10px;
+}
+
+.InfoStick-wrapper:first-child {
+    margin-top: 11px;
+
+}
+
+.InfoStick-wrapper-inner {
+    padding: 15px;
+}
+
+.small-blocks {
+    display: flex;
+    align-items: center;
+}
+
+.small-blocks.Green {
+     background: #FFFFFF;
+     border: 1px solid #41D481;
+     box-sizing: border-box;
+     border-radius: 100px 5px 5px 100px;
+     margin-right: 21px;
+}
+
+.small-blocks.blue {
+     background: #FFFFFF;
+     border: 1px solid #304FFF;
+     box-sizing: border-box;
+     border-radius: 100px 5px 5px 100px;
+     margin-right: 22px;
+}
+
+
+.InfoStick-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13px;
+}
+
+.InfoStick-top-leftItems {
+    margin-right: 90px;
+
+}
+
+.InfoStick-top-leftItems-blocks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.InfoStick-top-rightItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.InfoStick-top-rightItems-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.InfoStick-top-rightItems-blocks:last-child {
+    
+    margin-right: 0px;
+}
+
+.InfoStick-bottom {
+    display: flex;
+    align-items: center;
+    
+}
+
+.InfoStick-top-leftItems-blocks__img {
+    border-radius: 50%;
+    width: 49px;
+    height: 49px;
+}
+
+.InfoStick-top-leftItems-blocks__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #414D6A;
+
+}
+
+.InfoStick-btn--circle {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.196643);
+    border-radius: 50%;
+    border: none;
+
+    .circle-img {
+        padding: 15px 9px;
+    }
+}

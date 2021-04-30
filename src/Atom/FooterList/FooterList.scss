@@ -1,0 +1,31 @@
+.Flist {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-right: 50px;
+    margin-bottom: 25px;
+
+}
+
+.Flist:nth-child(4n) {
+    margin-right: 0;
+}
+
+.Flist:nth-child(7) {
+    margin-right: 70px;
+ 
+}
+
+
+.FLItems {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 29px;
+    color: #878F99;
+
+}

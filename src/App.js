@@ -1,24 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom'
+
+
+import { lazy, Suspense} from 'react';
+
+
+
+
+const MainlyPage = lazy(() => import('./pages/MainlyPage'))
+const SinglePage = lazy(() => import('./pages/SinglePage'))
+const RegisterPage = lazy(() => import('./pages/RegisterPage'))
+const ChatPage = lazy(() => import('./pages/ChatPage'))
+const InfoPage = lazy(() => import('./pages/InfoPage'))
+const SettingsPage = lazy(() => import('./pages/SettingsPage'))
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <div className="App">
+            <Router>
+
+    <Suspense fallback={<h1>Loading...</h1>}>
+
+      <div className="app">
+
+      </div>
+
+
+
+
+    <Switch>
+    <Route exact  path="/"    component={MainlyPage} />
+      <Route  path="/register"    component={RegisterPage} />
+       <Route  path="/singlePage"    component={SinglePage} />  
+        <Route  path="/infoPage"    component={InfoPage} />  
+        <Route  path="/chatPage"    component={ChatPage} />  
+        <Route  path="/settingsPage"    component={SettingsPage} />  
+
+
+       
+        
+
+    </Switch>
+
+      
+
+
+    </Suspense>
+
+
+    </Router>
+        </div>
   );
 }
 

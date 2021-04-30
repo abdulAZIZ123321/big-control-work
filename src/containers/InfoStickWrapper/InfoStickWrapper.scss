@@ -1,0 +1,40 @@
+.InfoWrap-title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-right: 35px;
+
+}
+
+.InfoWrap-title:last-child{
+   
+    margin-right: 0;
+
+}
+
+.InfoWrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.InfoWrap-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+.InfoWrap-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.InfoStickWrapper {
+    margin-top: 15px;
+    padding-top: 15px;
+}

@@ -1,0 +1,144 @@
+.ChatTperImg {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.ChatTyperText {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.233333px;
+    color: #25252B;
+    margin-left: 16px;
+    margin-bottom: 2px;
+
+}
+
+.ChatTyperSubText {
+    font-family: 'Nunito' sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #686871;
+    margin-top: 24px;
+
+}
+
+.CHatTyper-button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.ChatBtnImg {
+    width: 19px;
+    height: 16px;
+
+}
+
+.ChatTyperTextarea {
+    background: #FFFFFF;
+    border: 1px solid #EBECF0;
+    border-radius: 5px;
+    font-family: 'Nunito Sans' sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #25252B;
+    padding: 16px 24px;
+    width: 600px;
+
+}
+
+.ChatTyperIcon {
+    width: 11px;
+    height: 20px;
+}
+
+.ChatTyperBlock {
+    display: flex;
+    align-items: center;
+    background: #41D481;
+    box-shadow: 0px 2px 24px rgba(72, 128, 255, 0.2);
+    border-radius: 20px;
+}
+
+.ChatTyperBtn {
+    background: #41D481;
+    box-shadow: 0px 2px 24px rgba(72, 128, 255, 0.2);
+    border-radius: 20px;
+    border: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding: 12px 21px;
+}
+
+.ChatArrow {
+    width: 16px;
+    height: 13px;
+    padding-right: 24px;
+}
+
+.ChatTyper-top-left-top {
+    display: flex;
+    align-items: center;
+    
+}
+
+.ChatTyper-top {
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+.btn-file {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.line {
+    width: 400px;
+    height: 2px;
+    margin-left: 15px;
+    background-color: #E1E6ED;
+}
+
+.ChatTyper {
+    background-color: #fff;
+}
+
+.ChatTyper-Inner {
+    padding-top: 62px;
+    padding-bottom: 62px;
+    padding-right: 52px;
+    padding-left: 72px;
+    
+
+}
+
+.ChatTyper-bottom {
+
+    margin-top: 200px;
+
+
+    form {
+        
+
+        .ChatTyper-bottom-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 16px;
+        }
+    }
+}

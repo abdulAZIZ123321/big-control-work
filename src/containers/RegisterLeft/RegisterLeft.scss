@@ -1,0 +1,219 @@
+.RInputName {
+    background: #FFFFFF;
+    border: 1px solid rgba(151, 151, 151, 0.482592);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #C7C7C7;
+    padding: 20px 45px;
+    margin-bottom: 26px;
+
+}
+
+.labelR {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #787993;
+   width: 250px;
+    display: block;
+    margin-bottom: 7px;
+
+}
+
+.labelR--first {
+    margin-left: -50px;
+}
+
+.RInputName2 {
+    background: #FFFFFF;
+    border: 1px solid rgba(151, 151, 151, 0.482592);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #C7C7C7;
+    padding: 20px 25px;
+    margin-bottom: 26px;
+
+}
+
+.RInputName2--paddingly {
+    padding: 20px 0px;
+    width: 82px;
+    margin-right: 18px;
+}
+
+.RLBtn {
+    background: #41D481;
+    border-radius: 5px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 130px;
+    border: none;
+}
+
+.RLBtn--paddingly {
+    padding: 20px 40px;
+    margin-left: 18px;
+}
+
+
+
+.rNumbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RForm {
+   display: none;
+}
+
+.RFormActive {
+    display: block;
+}
+
+.Regtext {
+    font-family: 'Gilroy';
+    font-size: 12px;
+    line-height: 14px;
+    color: #303030;
+    width: 328px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.RegLink {
+
+    font-family: 'Gilroy';
+    font-size: 12px;
+    line-height: 14px;
+    color: #304FFF;
+    text-align: center;
+   
+}
+
+.SecondFormik {
+    display: none;
+}
+
+.SecondBtn {
+    background: #FFFFFF;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.279127);
+    border-radius: 5px;
+    border: none;
+    
+    
+
+    img {
+        padding: 15px 34px;
+    }
+}
+
+.nutshell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .RLItems-span {
+        margin:  7px 13px;
+        padding: 0;
+        
+    }
+
+    .left {
+        margin-right: -2px;
+        
+    }
+
+    .right {
+        margin-left: -2px;
+    }
+
+    hr {
+        border: 1px solid #979797;
+        width: 135px;
+        
+    }
+}
+
+
+
+.firstFWrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nutshellthiswrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RSbtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.RLItems-title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 75px;
+
+}
+
+.firstFWrap {
+    margin-bottom: 56px;
+}
+
+.title-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RLItems-link {
+    display: inline-block;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4E72CA;
+    width: 333px;
+
+}
+
+
+.second-block1 {
+    display: block;
+}

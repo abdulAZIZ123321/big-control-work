@@ -1,0 +1,38 @@
+.SingleBtn {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    
+}
+
+
+
+.SBInput {
+    border: none;
+    outline: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -6.73319e-05px;
+    color: #000000;
+     padding: 9px 13px;
+       background: #65E99F;
+       border-radius: 18.5px;
+}
+
+.SBBtn {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    background: #41D481;
+    border-radius: 18.5px;
+     padding: 10px 19px;
+     border: none;
+     margin-left: -100px;
+
+}

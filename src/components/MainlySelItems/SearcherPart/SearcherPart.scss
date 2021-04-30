@@ -1,0 +1,70 @@
+.sPart-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background: #FFFFFF;
+    border: 1px solid rgba(151, 151, 151, 0.496575);
+    box-sizing: border-box;
+    border-radius: 22.5px;
+
+}
+
+.sPart-select1 {
+    
+    border: none;
+    border-right: 1px solid rgba(151, 151, 151, 0.496575);
+    border-radius: 22.5px 0px 0px 22.5px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    padding: 13px 24px;
+
+}
+
+.sPart-searcher {
+    background: #FFFFFF;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    padding: 13px 24px;
+
+}
+
+
+
+.sPart-select2 {
+    background: #FFFFFF;
+    border: none;
+    border-left: 1px solid rgba(151, 151, 151, 0.496575);
+    box-sizing: border-box;
+    
+    font-family: 'Gilroy' ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    padding: 13px 24px;
+
+}
+
+.sPart-button {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #19D476;
+    border-radius: 22px;
+    padding: 16px 18px;
+    border: none;
+}
