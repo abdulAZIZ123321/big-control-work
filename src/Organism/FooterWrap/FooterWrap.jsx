@@ -1,5 +1,13 @@
 import FooterList from '../../Atom/FooterList'
 
+import arrowPink from '../../assets/images/icons/arrowpink.svg'
+import arrowBlue from '../../assets/images/icons/arrowBlue.svg'
+import arrowGreen from '../../assets/images/icons/arrowGreen.svg'
+import arrowHavorang from '../../assets/images/icons/arrowHavorang.svg'
+import arrowOrange from '../../assets/images/icons/arrowOrange.svg'
+import arrowBinafsha from '../../assets/images/icons/arrowBinafsha.svg'
+import arrowYellow from '../../assets/images/icons/arrowYellow.svg'
+
 import './FooterWrap.scss'
 
 
@@ -17,7 +25,8 @@ let FooterArr = [
         FLLitext8: ' Водный и Другой транспортa' ,
         FLLitext9: '' ,
         FLLitext10: '',
-        FLLitext11: ''
+        FLLitext11: '',
+        FTImg: arrowPink
     },
      {
         FLUltext: 'Недвижимость' ,
@@ -31,7 +40,8 @@ let FooterArr = [
         FLLitext8: 'Аренда помещений' ,
         FLLitext9: 'Продажа помещений' ,
         FLLitext10: ' Прочая недвижимость',
-        FLLitext11: 'Обмен недвижимости'
+        FLLitext11: 'Обмен недвижимости',
+         FTImg: arrowYellow
     },
      {
         FLUltext: 'Электроника' ,
@@ -45,7 +55,8 @@ let FooterArr = [
         FLLitext8: ' Климатическое оборудование' ,
         FLLitext9: ' Аксессуары и Комплектующие' ,
         FLLitext10: ' Техника для наблюдения',
-        FLLitext11: 'Прочая электроника'
+        FLLitext11: 'Прочая электроника',
+        FTImg: arrowPink
     },
      {
         FLUltext: 'Личные вещи' ,
@@ -59,7 +70,8 @@ let FooterArr = [
         FLLitext8: '' ,
         FLLitext9: '' ,
         FLLitext10: '',
-        FLLitext11: ''
+        FLLitext11: '',
+        FTImg: arrowOrange
     },
      {
         FLUltext: 'Дом и Сад' ,
@@ -73,7 +85,8 @@ let FooterArr = [
         FLLitext8: ' Прочие товары для дома' ,
         FLLitext9: '' ,
         FLLitext10: '',
-        FLLitext11: ''
+        FLLitext11: '',
+        FTImg: arrowGreen
     },
      {
         FLUltext: 'Товары стройки и ремонта' ,
@@ -87,7 +100,8 @@ let FooterArr = [
         FLLitext8: '' ,
         FLLitext9: '' ,
         FLLitext10: '',
-        FLLitext11: ''
+        FLLitext11: '',
+        FTImg: arrowBinafsha
     },
      {
         FLUltext: 'Хобби, Отдых и Спорт' ,
@@ -101,7 +115,8 @@ let FooterArr = [
         FLLitext8: ' Охота и рыбалка' ,
         FLLitext9: '' ,
         FLLitext10: '',
-        FLLitext11: ''
+        FLLitext11: '',
+        FTImg: arrowHavorang
     },
      {
         FLUltext: ' Бизнес и услуги' ,
@@ -115,7 +130,8 @@ let FooterArr = [
         FLLitext8: ' Реклама, Полиграфия и Маркетинг' ,
         FLLitext9: 'Няни, Сиделки и Домработницы' ,
         FLLitext10: ' Обучение, курсы и репетиторы',
-        FLLitext11: ' Фото, видео, искусство и дизайн'
+        FLLitext11: ' Фото, видео, искусство и дизайн',
+        FTImg: arrowBlue
     }
 ]
 
@@ -141,6 +157,7 @@ const FooterWrap = () => {
                                 FLLitext9={item.FLLitext9}
                                 FLLitext10={item.FLLitext10}
                                 FLLitext11={item.FLLitext11}
+                                FTImg={item.FTImg}
 
                                 
                                 

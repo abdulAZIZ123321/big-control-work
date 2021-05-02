@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 
 import './TCCard.scss'
 
-const TCCard = ({CImg,}) => {
+const TCCard = ({CImg}) => {
     return (
         <div className="TCCard-wrapper">
           

@@ -1,10 +1,13 @@
+import gooogleMap from '../../assets/images/googlemap.jpg'
+
 import './SettingsItem.scss'
 
 const SettingsItem = () => {
     return (
         <div className="SettingsItem">
           <div className="SettingsItem-sections">
-              <label htmlFor="SettingInputT" className="SettingLabel">Цена</label>
+             <div className="SInputsWrap2">
+                <label htmlFor="SettingInputT" className="SettingLabel">Цена</label>
               <div className="SInputsWrap">
                 <input type="text" className="SettingInputT" id="SettingInputT"/>
 
@@ -20,17 +23,20 @@ const SettingsItem = () => {
               <label htmlFor="SettingCH" className="SettingLabel2 SettingLabel2--bigger">Договорная</label>
               </div>
               </div>
+             </div>
           </div>
 
 
           <div className="SettingsItem-sections">
-              <label htmlFor="SettingInputT" className="SettingLabel">Количество комнат*</label>
+              <div className="SInputsWrap2">
+                <label htmlFor="SettingInputT" className="SettingLabel">Количество комнат*</label>
               <div className="SInputsWrap">
                 <input type="number" className="SettingInputT" id="SettingInputT"/>
 
                <input type="number" className="SettingInputT" id="SettingInputT"/>
 
                <input type="number" className="SettingInputT" id="SettingInputT"/>
+              </div>
               </div>
 
               
@@ -217,92 +223,106 @@ const SettingsItem = () => {
           </div>
 
 
-          <div className="SettingsItem-sections">
-              <label htmlFor="" className="SettingLabel">Электричество</label>
-              <h4 className="SettingTitle">
+          <div className="SettingsItem-sections SettingsItem-sections--others">
+             <div className="STT">
+                <label htmlFor="" className="SettingLabel">Электричество</label>
+             </div>
+             <div className="STT">
+                <h4 className="SettingTitle">
                   Есть возможность подключения
               </h4>
-          </div>
-          <div className="SettingsItem-sections">
-                <hr/>
-                <span className="SettingSpan">
-                    9000 знаков осталос
-                </span>
-
-                <div className="IMGIcons">
-                  <label htmlFor="inputFile" className="SettingLabel">
-                    <img src="" alt="" className="SettingIcon"/>
-
-                    <input type="file" name="" id="inputFile"/>
-
-                </label>
-                <label htmlFor="inputFile2" className="SettingLabel">
-                    <img src="" alt="" className="SettingIcon"/>
-
-                    <input type="file" name="" id="inputFile2"/>
-
-                </label>
-                <label htmlFor="inputFile3" className="SettingLabel">
-                    <img src="" alt="" className="SettingIcon"/>
-
-                    <input type="file" name="" id="inputFile3"/>
-
-                </label>
-                <label htmlFor="inputFile4" className="SettingLabel">
-                    <img src="" alt="" className="SettingIcon"/>
-
-                    <input type="file" name="" id="inputFile4"/>
-
-                </label>
-                <label htmlFor="inputFile5" className="SettingLabel">
-                    <img src="" alt="" className="SettingIcon"/>
-
-                    <input type="file" name="" id="inputFile5"/>
-
-                </label>
-                </div>
-                <div className="IMGIcons">
-                  <label htmlFor="inputFile6" className="SettingLabel">
-                    <img src="" alt="" className="SettingIcon"/>
-
-                    <input type="file" name="" id="inputFile6"/>
-
-                </label>
-                <label htmlFor="inputFile7" className="SettingLabel">
-                    <img src="" alt="" className="SettingIcon"/>
-
-                    <input type="file" name="" id="inputFile7"/>
-
-                </label>
-                <label htmlFor="inputFile8" className="SettingLabel">
-                    <img src="" alt="" className="SettingIcon"/>
-
-                    <input type="file" name="" id="inputFile8"/>
-
-                </label>
-                <label htmlFor="inputFile9" className="SettingLabel">
-                    <img src="" alt="" className="SettingIcon"/>
-
-                    <input type="file" name="" id="inputFile9"/>
-
-                </label>
-                <label htmlFor="inputFile10" className="SettingLabel">
-                    <img src="" alt="" className="SettingIcon"/>
-
-                    <input type="file" name="" id="inputFile10"/>
-
-                </label>
-                </div>
+             </div>
           </div>
 
+          <div className="section-top-setting">
+                      <hr/>
+                    <span className="SettingSpan">
+                        9000 знаков осталос
+                    </span>
+                </div>
 
-          <div className="SettingsItem-sections">
-                  <h2 className="SettingTitleBig">
+
+          <div className="SettingsItem-sections SettingsItem-sections--others2">
+              
+
+                <div className="IMGIcons">
+                        <label htmlFor="inputFile" className="SettingLabel">
+                          <img src="" alt="" className="SettingIcon" width="107" height="107"/>
+                         
+
+                          <input type="file" name="" id="inputFile"/>
+
+                      </label>
+                      <label htmlFor="inputFile2" className="SettingLabel">
+                          <img src="" alt="" className="SettingIcon"  width="107" height="107"/>
+
+                          <input type="file" name="" id="inputFile2"/>
+
+                      </label>
+                      <label htmlFor="inputFile3" className="SettingLabel">
+                          <img src="" alt="" className="SettingIcon"  width="107" height="107"/>
+
+                          <input type="file" name="" id="inputFile3" />
+
+                      </label>
+                      <label htmlFor="inputFile4" className="SettingLabel">
+                          <img src="" alt="" className="SettingIcon"  width="107" height="107"/>
+
+                          <input type="file" name="" id="inputFile4"/>
+
+                      </label>
+                      <label htmlFor="inputFile5" className="SettingLabel">
+                          <img src="" alt="" className="SettingIcon"  width="107" height="107"/>
+
+                          <input type="file" name="" id="inputFile5" />
+
+                      </label>
+                      </div>
+                      <div className="IMGIcons">
+                        <label htmlFor="inputFile6" className="SettingLabel">
+                          <img src="" alt="" className="SettingIcon"  width="107" height="107"/>
+
+                          <input type="file" name="" id="inputFile6"/>
+
+                      </label>
+                      <label htmlFor="inputFile7" className="SettingLabel">
+                          <img src="" alt="" className="SettingIcon"  width="107" height="107"/>
+
+                          <input type="file" name="" id="inputFile7"/>
+
+                      </label>
+                      <label htmlFor="inputFile8" className="SettingLabel">
+                          <img src="" alt="" className="SettingIcon" width="107" height="107"/>
+
+                          <input type="file" name="" id="inputFile8"/>
+
+                      </label>
+                      <label htmlFor="inputFile9" className="SettingLabel">
+                          <img src="" alt="" className="SettingIcon"  width="107" height="107"/>
+
+                          <input type="file" name="" id="inputFile9"/>
+
+                      </label>
+                      <label htmlFor="inputFile10" className="SettingLabel">
+                          <img src="" alt="" className="SettingIcon"  width="107" height="107"/>
+
+                          <input type="file" name="" id="inputFile10"/>
+
+                      </label>
+                </div>
+          </div>
+
+
+          <div className="SettingsItem-sections  SettingsItem-sections--others">
+                  <div className="">
+                    <h2 className="SettingTitleBig">
                       Местоположение объекта
 
                   </h2>
+                  </div>
 
-                  <div className="SettingsItem-articles2">
+                 <div className="SSDiv">
+                    <div className="SettingsItem-articles2">
                       <label htmlFor="SettingSelect3" className="SettingLabel">Регион</label>
                       <select name="" id="SettingSelect3" className="SettingSelect"></select>
                   </div>
@@ -310,8 +330,11 @@ const SettingsItem = () => {
                         <label htmlFor="SettingSelect4" className="SettingLabel">Город / Район</label>
                       <select name="" id="SettingSelect4" className="SettingSelect"></select>
                   </div>
+                 </div>
 
-                  <img src="" alt="" className="bigImg"/>
+                 <div className="">
+                    <img src={gooogleMap} alt="" className="bigImg" width="653" height="376"/>
+                 </div>
 
 
           </div>
@@ -320,22 +343,22 @@ const SettingsItem = () => {
           <div className="SettingsItem-sections SettingsItem-sections--notFlexly ">
                 <div className="SInputsWrap2">
                       <label htmlFor="SettingInputN4" className="SettingLabel">Телефонный номер</label>
-                      <input type="number" className="SettingInputT" id="SettingInputN4"/>
+                      <input type="number" className="SettingInputT  SettingInputT--in-block" id="SettingInputN4"/>
                     </div>
 
                     <div className="SInputsWrap2">
                       <label htmlFor="SettingInputN5" className="SettingLabel">Email-адрес</label>
-                      <input type="number" className="SettingInputT" id="SettingInputN5"/>
+                      <input type="number" className="SettingInputT SettingInputT--in-block" id="SettingInputN5"/>
                     </div>
 
                     <div className="SInputsWrap2">
                       <label htmlFor="SettingInputT5" className="SettingLabel">Контактный лицо</label>
-                      <input type="text" className="SettingInputT" id="SettingInputT5"/>
+                      <input type="text" className="SettingInputT SettingInputT--in-block" id="SettingInputT5"/>
                     </div>
           </div>
 
 
-          <div className="SettingsItem-sections">
+          <div className="SettingsItem-sections SettingsItem-sections--another ">
                  <button className="SettingGreenBtn">
                       Добавить обьявления бесплатно
                  </button>

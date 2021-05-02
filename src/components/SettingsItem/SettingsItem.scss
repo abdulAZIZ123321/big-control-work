@@ -22,6 +22,11 @@
     border: none;
     border-bottom: 1px solid #979797;
     padding-bottom: 7px;
+    margin-right: 39px;
+}
+
+.SettingInputT:last-child {
+    margin-right: 0;
 }
 
 .SettingSelect {
@@ -35,6 +40,8 @@
     border: none;
     border-bottom: 1px solid #979797;
     padding-bottom: 7px;
+    margin-right: 50px;
+    
 }
 
 .SettingLabel2 {
@@ -44,6 +51,7 @@
     font-size: 15px;
     line-height: 18px;
     color: #000000;
+    margin-left: 11px;
 
 }
 
@@ -78,6 +86,8 @@
     background: #19D476;
     border-radius: 13px;
     padding: 20px 45px;
+    margin-right: 67px;
+    border: none;
 }
 
 .SettingBlueBtn {
@@ -88,8 +98,11 @@
     line-height: 23px;
     text-decoration-line: underline;
     color: #4E72CA;
+    background-color: transparent;
+    border: none;
 
 }
+
 
 
 .SettingsItem-sections{
@@ -97,6 +110,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 38px;
 
 
     hr {
@@ -105,16 +119,104 @@
 }
 
 .SettingsItem-sections--notFlexly {
-    display: block;
+    display: inline-block;
+    
 }
 
 .SInputsWrap {
     display: flex;
     align-items: center;
+    margin-bottom: 35px;
+}
+
+
+
+.STT {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.SInputsWrap2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 31px;
+
+}
+
+.SettingIcon {
+    border: 1px solid #000;
 }
 
 .sections-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 22px;
+}
+
+.section-top-setting {
+    margin-bottom: 14px;
+}
+
+.SettingsItem-articles2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.SettingsItem-sections--others {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+.SettingsItem-sections--others2 {
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.SettingTitleBig {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.SSDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.IMGIcons {
+
+    display: flex;
+    align-items: center;
+
+    label {
+        margin-right: 37px;
+        margin-bottom: 23px;
+
+
+        input {
+            display: none;
+        }
+    }
+}
+
+.bigImg {
+    margin-top: 19px;
+    margin-left: 350px;
+}
+
+.SettingsItem-sections--another {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
